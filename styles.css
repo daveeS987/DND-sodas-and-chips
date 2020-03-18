@@ -1,56 +1,49 @@
-html {
-    height: 100%;
-  }
-  
-  body {
+body {
     margin: 0;
     height: 100%;
     font-family: helvetica;
-  }
+}
   
-  a {
+a {
     color: green;
-  }
-  a:hover {
-    color: yellow;
-    cursor: pointer;
-  }
-  header {
+}
+
+header {
     padding: 10px;
     background-color: purple ;
     color: white ;
     text-shadow: 1px 1px 1px #000;
     text-align: center;
-  }
+}
   
-  nav {
+nav {
     background-color: rgb(0, 81, 128);
-  }
+}
   
-  nav ul {
+nav ul {
     margin: 0;
     padding: 0;
     list-style: none;
-  }
+}
   
-  nav ul li {
+nav ul li {
     display: inline-block;
     margin: 20px;
     font-size: 24px;
-  }
-  nav ul li a {
+}
+nav ul li a {
     color: white;
-  }
+}
   
-  section {
+section {
     width: 95%;
     margin: 0 auto;
     padding: 5px;
     min-height: 800px;
     
   
-  }
-  article {
+}
+article {
     border: solid 1px black;
     margin-top: 15px;
     border-radius: 5px;
@@ -59,12 +52,12 @@ html {
     box-shadow: 5px 10px #888888;
   
   
-  }
-  article p {
+}
+article p {
   padding: 5%;
   
-  }
-  section img {
+}
+section img {
     margin-top: 20px;
     width: 200px;
 }
@@ -73,20 +66,20 @@ img {
     border-radius: 20%;
 }
   
-  footer {
+footer {
     clear: left;
     padding: 10px;
     background-color: blue ;
     
-  }
-  footer ul li {
+}
+footer ul li {
     display: inline-block;
     margin: 20px;
     font-size: 24px;
-  }
-  footer ul li a {
+}
+footer ul li a {
     color: white;
-  }
+}
 
 
 
