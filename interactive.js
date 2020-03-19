@@ -11,12 +11,11 @@ if (hourNow > 18) {
 } else {
     greeting = 'Welcome';
 }
-
 document.write('<h3>' + greeting + '</h3>');
 
 
 var txt;
-var person = prompt("Please enter your name", "Harry Potter");
+var person = prompt("Please enter your name");
 if (person == null || person == "") {
   txt = "User cancelled the prompt.";
 } else {
@@ -24,5 +23,8 @@ if (person == null || person == "") {
 }
 document.write('<h3>' + txt + '</h3>');
 
-var confirm1 = confirm("DO YOU LOVE OUR CHIPS??");
-document.write('<h3>' + confirm1 + '</h3>');
+var answer = prompt("How many bags of chips a day do you eat?");
+
+
+var chipAmount = "We're glad you eat " + answer + " bags of chips a day!!" 
+document.write('<h3>' + chipAmount + '</h3>');
