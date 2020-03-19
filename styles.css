@@ -50,8 +50,6 @@ article {
     display: flex;
     flex-direction: row;
     box-shadow: 5px 10px #888888;
-  
-  
 }
 article p {
   padding: 5%;
@@ -65,7 +63,6 @@ img {
     border: black 5px;
     border-radius: 20%;
 }
-  
 footer {
     clear: left;
     padding: 10px;
