@@ -7,9 +7,11 @@ if (person == null || person == "") {
 }
 document.write('<h1>' + txt + '</h1>');
 
+
 var answer = prompt("How many bags of chips a day do you eat?");
 var chipAmount = "We're glad you eat " + answer + " bags of chips a day!!" 
 document.write('<h2>' + chipAmount + '</h2>');
+
 
 var today = new Date();
 var hourNow = today.getHours();
