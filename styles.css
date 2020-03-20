@@ -56,7 +56,7 @@ section img {
 }
 img {
     border: black 5px;
-    border-radius: 20%;
+    border-radius: 50%;
 }
 footer {
     clear: left;
