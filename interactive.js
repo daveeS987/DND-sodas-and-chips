@@ -13,7 +13,7 @@ var findFavoriteChip = function() {
   } else if (lowerCaseAnswer === 'dorito' || lowerCaseAnswer === 'doritos') {
     alert("We're glad you love DORITOS!!!");
     favorite = "DORITOS";
-  } else {
+  } else if (lowerCaseAnswer === 'pringle' || lowerCaseAnswer === 'pringles') {
     alert("We're glad you love PRINGLES!!!");
     favorite = "PRINGLES";
   }
@@ -35,7 +35,7 @@ function displayChips() {
   var customersChipsChoice = findFavoriteChip();
   console.log(customersChipsChoice);
   var total = askHowManyChips();
-  var result;
+  var result = '';
   for (var i = 0; i < total; i++) {
     result = result + '<p>' + findChipImage(customersChipsChoice) + '</p>';
   }
@@ -49,8 +49,8 @@ function findChipImage(favorite) {
     chipImage = '<img src="images/cheeto.png" width="400">'; 
   } else if (favorite === 'DORITOS') {
     chipImage = '<img src="images/doritos.png" width="400">'; 
-  } else if (favorite === 'CHEETOS') {
-    chipImage = '<img src="images/pringles.png" width="400">'; 
+  } else if (favorite === 'PRINGLES') {
+    chipImage = '<img src="images/pringles-2.png" width="400">'; 
   }
   return chipImage;
 }
