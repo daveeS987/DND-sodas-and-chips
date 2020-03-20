@@ -37,20 +37,20 @@ function displayChips() {
   var total = askHowManyChips();
   var result;
   for (var i = 0; i < total; i++) {
-    result = result + '<p>findChipImage(customersChipsChoice)</p>';
+    result = result + '<p>' + findChipImage(customersChipsChoice) + '</p>';
   }
-  return result;
+  document.write(result);;
 }
 
 
 function findChipImage(favorite) {
   var chipImage;
   if (favorite === 'CHEETOS') {
-    chipImage = '<img src="images/cheeto.png">'; 
+    chipImage = '<img src="images/cheeto.png" width="400">'; 
   } else if (favorite === 'DORITOS') {
-    chipImage = '<img src="images/doritos.png">'; 
+    chipImage = '<img src="images/doritos.png" width="400">'; 
   } else if (favorite === 'CHEETOS') {
-    chipImage = '<img src="images/pringles.png">'; 
+    chipImage = '<img src="images/pringles.png" width="400">'; 
   }
   return chipImage;
 }

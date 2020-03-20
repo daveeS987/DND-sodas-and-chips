@@ -1,25 +1,20 @@
-
-
 body {
-    margin: 0;
-    height: 100%;
-    font-family: helvetica;
-}
-
-a {
-    color: green;
+    background-color: rgb(210, 27, 7);
+    /* height: 100%; */
+    font-family: Helvetica, Arial, sans-serif
 }
 
 header {
     padding: 10px;
-    background-color: purple ;
     color: white ;
     text-shadow: 1px 1px 1px #000;
     text-align: center;
 }
-  
-nav {
-    background-color: rgb(0, 81, 128);
+
+h1 {
+    font-size: 60px;
+    text-align: center;
+    color: white;
 }
   
 nav ul {
@@ -46,12 +41,10 @@ section {
   
 }
 article {
-    border: solid 1px black;
-    margin-top: 15px;
+    border: solid 1px rgb(247, 213, 19);
     border-radius: 5px;
     display: flex;
     flex-direction: row;
-    box-shadow: 5px 10px #888888;
 }
 article p {
   padding: 5%;
@@ -68,7 +61,6 @@ img {
 footer {
     clear: left;
     padding: 10px;
-    background-color: blue ;
     
 }
 footer ul li {
