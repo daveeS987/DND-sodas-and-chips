@@ -1,5 +1,5 @@
 var findFavoriteChip = function() {  
-  var chipArr = ['cheetos', 'cheeto', 'dorito', 'doritos', 'pringle', 'pringles']
+  var chipArr = ['cheetos', 'cheeto', 'cheeeto', 'cheeetos', 'dorito', 'doritos', 'dorritos', 'dorittos', 'dorrittoos', 'pringle', 'pringles'];
   var customerAnswer = prompt("What's your favorite chip on our website?");
   var lowerCaseAnswer = customerAnswer.toLowerCase();
   while (lowerCaseAnswer === '' || chipArr.indexOf(lowerCaseAnswer) === -1) {
@@ -7,10 +7,12 @@ var findFavoriteChip = function() {
     lowerCaseAnswer = customerAnswer.toLowerCase();
   }
   var favorite;
-  if (lowerCaseAnswer === 'cheetos' || lowerCaseAnswer === 'cheeto') {
+  var cheetoArray = ['cheetos', 'cheeto', 'cheeeto', 'cheeetos'];
+  var doritosArray= ['dorito', 'doritos', 'dorritos', 'dorittos', 'dorrittoos'];
+  if (cheetoArray.indexOf(lowerCaseAnswer) !== -1) {
     alert("We're glad you love CHEETOS!!!");
     favorite = "CHEETOS";
-  } else if (lowerCaseAnswer === 'dorito' || lowerCaseAnswer === 'doritos') {
+  } else if (doritosArray.indexOf(lowerCaseAnswer) !== -1) {
     alert("We're glad you love DORITOS!!!");
     favorite = "DORITOS";
   } else if (lowerCaseAnswer === 'pringle' || lowerCaseAnswer === 'pringles') {
